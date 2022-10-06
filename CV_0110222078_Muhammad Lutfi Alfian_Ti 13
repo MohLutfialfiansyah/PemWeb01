@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Muhammad Lutfi Alfian</title>
+</head>
+<body>
+    <h1 align="center">CURRICULUM VITAE</h1>
+    <hr>
+    <img src="asiap/alfian.jpg.jpg" alt="pass_foto"
+    width="400px"
+    height="300px"
+    text-align="right">
+    
+
+
+    <ul>
+    <li><h3>Personal Details</h3></li>
+    </ul>
+
+    <table >
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td>Muhammad Lutfi Alfian</td>
+        </tr>
+        
+        <tr>
+            <td>TTL</td>
+            <td>:</td>
+            <td>Bogor, 28 November 2003</td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>:</td>
+            <td>Islam</td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>Laki-Laki</td>
+        </tr>
+        <tr>
+            <td>Tinggi Badan</td>
+            <td>:</td>
+            <td>168 cm</td>
+        </tr>
+        <tr>
+            <td>Berat Badan</td>
+            <td>:</td>
+            <td>60 kg</td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td>Gunung Putri Selatan Rt002/Rw002</td>
+        </tr>
+        <tr>
+            <td>Kontak</td>
+            <td>:</td>
+            <td>085889251189</td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td>:</td>
+            <td>Belum Menikah</td>
+        </tr>
+        <tr>
+            <td>E-mail</td>
+            <td>:</td>
+            <td>alfiansyah567789@gmail.com</td>
+        </tr>
+    </tr>
+
+    </table>
+<ul>
+    <li>
+    <h3>Educations Details</h3></li></ul>
+    <ul type="circle">
+       
+        <li>MI Al-Husna Kadu Tangerang (2012-2017)</li>
+        <li>MTS Al-Hikmah curug Tangerang (2017-2019)</li>
+        <li>SMA Plus Cendikia Cikeas Islamic Boarding School (2019-2022)</li>
+        <li>STT Terpadu Nurul Fikri (2022-sekarang)</li>
+
+    </ul>
+
+    <ul>
+        <li><h3>Experience Details</h3></li>
+    </ul>
+
+    <ul type="circle">
+        <li>Pernah menjadi bagian divisi agama di sekolah</li>
+        <li>Pernah mendapatkan juara 1 lomba baca Qur'an di sekolah</li>
+        <li>pernah juara 1 hadroh di sekolah</li>
+        <li>pernah pondok selama 3 tahun</li>
+    </ul>
+
+</body>
+</html>
