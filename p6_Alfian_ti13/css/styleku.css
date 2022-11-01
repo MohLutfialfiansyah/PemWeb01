@@ -1,0 +1,56 @@
+body{
+    background-color: wheat;
+}
+#header{
+    background-color: #ffa600cb;
+    padding: 10px;
+}
+#header h1{
+     color: blue;
+     text-align: center;
+}
+#header blockquote{
+    background-color: yellow;
+    text-align: center;
+    border: 1px dotted black;
+}
+ul li{
+  display: inline-block;
+}
+.yupi{
+    text-align: center;
+}
+.gambar{
+    text-align: center;
+   
+}
+.jawa{
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.promo{
+    background-color: yellow;
+    color: red;
+    text-align: center;
+}
+ol li{
+    display: inline-block;
+}
+.koleksi{
+    background-color: black;
+    width: 10px;
+    display: flex;
+    height: 270px;    
+}
+.center{
+    text-align: center;
+}
+#beternak .ternak{
+    text-align: center;
+}
+.promo img{
+   width: 100px;
+   height: 50px;
+}
