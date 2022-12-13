@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 11.1</title>
+    <script>
+        // Membuat array
+        let fruits = ["Apel", "Mangga","Jeruk","Anggur"];
+        console.log(fruits);
+
+       // Menampilkan semua data array dengan looping for
+       for (let i =0; i < fruits.length; i++){
+        console.log(fruits[i]);
+       }
+       console.log("");
+       fruits.push("Ubi","Ya"); // Untuk  Menambahkan data pada array
+       fruits.sort(); // untuk mengurutkan A-Z
+       fruits.pop(); // untuk menghapus data array paling akhir
+       fruits.splice(1, 3); // unutk menghapus data array dari index ke-1 sebanyak 3
+
+       for (let i =0; i < fruits.length; i++){
+        console.log(fruits[i]);
+    }
+
+    // Object
+    let motor ={
+        tipe : "Honda",
+        merk : "Astrea",
+        tahun : 2012,
+        warna : "Hitam",
+        jalan: function (){
+            console.log("Bremmmmm...");
+        },
+
+    };
+
+    console.log(motor.merk);
+    
+    </script>
+</head>
+<body>
+    <h1>Belajar Array</h1>
+</body>
+</html>
