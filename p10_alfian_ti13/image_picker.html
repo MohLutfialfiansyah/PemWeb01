@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <script>
+         function gambar(){
+            let drop_img = document.getElementById("dropdown_img").value;
+            let image = document.getElementById("image");
+            
+            if(drop_img == "gorila"){
+                image.setAttribute("src","https://files.worldwildlife.org/wwfcmsprod/images/Mountain_Gorilla_Silverback_WW22557/story_full_width/36fcoamev0_Mountain_Gorilla_Silverback_WW22557.jpg")
+                alert("Ini Gambar Gorila")
+            }else if(drop_img == "singa"){
+                image.setAttribute("src","https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/01g6ydmnx49b89eej6adbz40z4.jpg")
+                alert("Ini Gambar Singa")
+            }else if(drop_img == "elang"){
+                image.setAttribute("src","https://moondoggiesmusic.com/wp-content/uploads/2019/11/Burung-Elang.jpg")
+                alert("Ini Gambar Elang")
+            }else{
+                alert("Tidak Ada Gambar")
+            }
+
+         }
+    </script>
+</head>
+<body>
+    <select  id="dropdown_img" onchange="gambar()">
+        <option hidden>---Pilih Gambar---</option>
+        <option value="gorila">Gorila</option>
+        <option value="singa">Singa</option>
+        <option value="elang">Elang</option>
+    </select>
+    <br>
+    <img  alt="gambar" id="image">
+</body>
+</html>

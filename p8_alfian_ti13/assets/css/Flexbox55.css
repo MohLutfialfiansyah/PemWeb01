@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.nav {
+    width: 15%;
+    height: 600px;
+    background-color: pink;
+}
+
+.box1 {
+    width: 85%;
+    height: 100px;
+    background-color: khaki;
+    float: right;
+    margin-top: -600px;
+}
+
+.box2 {
+    width: 15%;
+    height: 400px;
+    background-color: blue;
+    float: right;
+    margin-top: -500px;
+}
+
+.box3 {
+    width: 70%;
+    height: 400px;
+    background-color: whitesmoke;
+    float: left;
+    margin-top: -500px;
+    margin-left: 15%;
+}
+
+.box4 {
+    width: 85%;
+    height: 100px;
+    background-color: khaki;
+    float: right;
+    margin-top: -100px;
+}
+
+p {
+    padding: 10px 20px;
+}

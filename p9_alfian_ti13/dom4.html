@@ -1,0 +1,22 @@
+<h2>Pertambahan</h2>
+<form>
+    <input type="text" id="angka_1" onChange="tambah()">
+    <br>
+    +
+    <br>
+    <input type="text" id="angka_2" onChange="tambah()">
+   <br>
+    <p value="=" onChange="tambah()">=</p>
+    <br>
+    <input type="text" id="hitung_tambah" onChange="tambah()">
+</form>
+ 
+<script>
+     function tambah(){
+        let b= document.getElementById("angka_1").value;
+        let c= document.getElementById("angka_2").value;
+        let hasil= parseInt(b)+parseInt(c);
+
+        document.getElementById("hitung_tambah").value = hasil;
+        }
+</script>
